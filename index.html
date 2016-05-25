@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>HomeRun</title>
+
+        <style>
+            body {
+                background: url("ressources/bcg.png");
+            }
+
+            h1 {
+                font-family: 'MankSans';
+                letter-spacing: 4px;
+                color: turquoise;
+                text-align: center;
+                margin-bottom: 50px;
+                font-size: 60px;
+            }
+
+            canvas {
+                display: block;
+                margin: 20px auto;
+                border: 1px solid rgba( 0, 50, 100, 0.4 );
+                box-shadow: 0 0 20px 0 rgba( 0, 0, 0, 0.4 );
+            }
+
+            ::selection {
+                background: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HomeRun</h1>
+
+        <canvas id="game" width="790" height="500"></canvas>
+
+        <script src="homerun.js"></script>
+        <script src="game.js"></script>
+    </body>
+</html>
